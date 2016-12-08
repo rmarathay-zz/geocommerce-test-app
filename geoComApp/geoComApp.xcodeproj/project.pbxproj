@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2ED1548D162988F9EBAC867F /* Pods_geoComApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C485C50D5854488B807830BC /* Pods_geoComApp.framework */; };
+		951512EA1DE8DFC500D29AD1 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951512E91DE8DFC500D29AD1 /* Map.swift */; };
+		9553FFB51DE39BE700FF6C7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9553FFB41DE39BE700FF6C7F /* AppDelegate.swift */; };
+		9553FFBA1DE39BE700FF6C7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9553FFB81DE39BE700FF6C7F /* Main.storyboard */; };
+		9553FFBC1DE39BE700FF6C7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9553FFBB1DE39BE700FF6C7F /* Assets.xcassets */; };
+		9553FFBF1DE39BE700FF6C7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9553FFBD1DE39BE700FF6C7F /* LaunchScreen.storyboard */; };
+		9553FFC71DE39C9D00FF6C7F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9553FFC61DE39C9D00FF6C7F /* GoogleService-Info.plist */; };
+		9553FFC91DE39D5F00FF6C7F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9553FFC81DE39D5F00FF6C7F /* Podfile */; };
+		9553FFD31DE3ECF100FF6C7F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9553FFD21DE3ECF100FF6C7F /* Home.swift */; };
+		9587BC3E1DF7D32300DC172C /* AddCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9587BC3D1DF7D32300DC172C /* AddCard.swift */; };
+		95BFDB161DF6520A00D329DD /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BFDB151DF6520A00D329DD /* FBSDKLoginKit.framework */; };
+		95BFDB181DF6535B00D329DD /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BFDB171DF6535B00D329DD /* FBSDKCoreKit.framework */; };
+		95BFDB1A1DF653BE00D329DD /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BFDB191DF653BE00D329DD /* Bolts.framework */; };
+		95BFDB1C1DF65D4000D329DD /* MainData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BFDB1B1DF65D4000D329DD /* MainData.swift */; };
+		95ECE4FD1DF8A79300D00241 /* Pay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ECE4FC1DF8A79300D00241 /* Pay.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47D54AADBDA05E5E8A90A5F5 /* Pods-geoComApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geoComApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-geoComApp/Pods-geoComApp.release.xcconfig"; sourceTree = "<group>"; };
+		7905CA1E43FC99B19AB0AE26 /* Pods-geoComApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geoComApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-geoComApp/Pods-geoComApp.debug.xcconfig"; sourceTree = "<group>"; };
+		951512E91DE8DFC500D29AD1 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		9553FFB11DE39BE700FF6C7F /* geoComApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geoComApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9553FFB41DE39BE700FF6C7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9553FFB91DE39BE700FF6C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9553FFBB1DE39BE700FF6C7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9553FFBE1DE39BE700FF6C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9553FFC01DE39BE700FF6C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9553FFC61DE39C9D00FF6C7F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9553FFC81DE39D5F00FF6C7F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9553FFD21DE3ECF100FF6C7F /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		9587BC3D1DF7D32300DC172C /* AddCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCard.swift; sourceTree = "<group>"; };
+		9587BC3F1DF7DA8B00DC172C /* geoComApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "geoComApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		95BFDB151DF6520A00D329DD /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		95BFDB171DF6535B00D329DD /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		95BFDB191DF653BE00D329DD /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		95BFDB1B1DF65D4000D329DD /* MainData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainData.swift; sourceTree = "<group>"; };
+		95ECE4FC1DF8A79300D00241 /* Pay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pay.swift; sourceTree = "<group>"; };
+		C485C50D5854488B807830BC /* Pods_geoComApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_geoComApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9553FFAE1DE39BE700FF6C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BFDB161DF6520A00D329DD /* FBSDKLoginKit.framework in Frameworks */,
+				95BFDB181DF6535B00D329DD /* FBSDKCoreKit.framework in Frameworks */,
+				2ED1548D162988F9EBAC867F /* Pods_geoComApp.framework in Frameworks */,
+				95BFDB1A1DF653BE00D329DD /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E49FB7F5BC0EA6EBB0C9D18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7905CA1E43FC99B19AB0AE26 /* Pods-geoComApp.debug.xcconfig */,
+				47D54AADBDA05E5E8A90A5F5 /* Pods-geoComApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		639E4A906216BD8A0F58271C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C485C50D5854488B807830BC /* Pods_geoComApp.framework */,
+				95BFDB191DF653BE00D329DD /* Bolts.framework */,
+				95BFDB171DF6535B00D329DD /* FBSDKCoreKit.framework */,
+				95BFDB151DF6520A00D329DD /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9553FFA81DE39BE600FF6C7F = {
+			isa = PBXGroup;
+			children = (
+				9553FFB31DE39BE700FF6C7F /* geoComApp */,
+				9553FFB21DE39BE700FF6C7F /* Products */,
+				5E49FB7F5BC0EA6EBB0C9D18 /* Pods */,
+				639E4A906216BD8A0F58271C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9553FFB21DE39BE700FF6C7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9553FFB11DE39BE700FF6C7F /* geoComApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9553FFB31DE39BE700FF6C7F /* geoComApp */ = {
+			isa = PBXGroup;
+			children = (
+				9553FFB41DE39BE700FF6C7F /* AppDelegate.swift */,
+				9553FFD21DE3ECF100FF6C7F /* Home.swift */,
+				951512E91DE8DFC500D29AD1 /* Map.swift */,
+				9587BC3D1DF7D32300DC172C /* AddCard.swift */,
+				95BFDB1B1DF65D4000D329DD /* MainData.swift */,
+				95ECE4FC1DF8A79300D00241 /* Pay.swift */,
+				955D80531DEDFC62009AD637 /* Idle Views */,
+				9553FFB81DE39BE700FF6C7F /* Main.storyboard */,
+				9553FFBB1DE39BE700FF6C7F /* Assets.xcassets */,
+				9553FFBD1DE39BE700FF6C7F /* LaunchScreen.storyboard */,
+				9553FFC61DE39C9D00FF6C7F /* GoogleService-Info.plist */,
+				9553FFC01DE39BE700FF6C7F /* Info.plist */,
+				9553FFC81DE39D5F00FF6C7F /* Podfile */,
+				9587BC3F1DF7DA8B00DC172C /* geoComApp-Bridging-Header.h */,
+			);
+			path = geoComApp;
+			sourceTree = "<group>";
+		};
+		955D80531DEDFC62009AD637 /* Idle Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Idle Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9553FFB01DE39BE700FF6C7F /* geoComApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9553FFC31DE39BE700FF6C7F /* Build configuration list for PBXNativeTarget "geoComApp" */;
+			buildPhases = (
+				FB9645EE08C8FD17A03F2BC7 /* [CP] Check Pods Manifest.lock */,
+				9553FFAD1DE39BE700FF6C7F /* Sources */,
+				9553FFAE1DE39BE700FF6C7F /* Frameworks */,
+				9553FFAF1DE39BE700FF6C7F /* Resources */,
+				55BFBF779572C92C3A523F3A /* [CP] Embed Pods Frameworks */,
+				95400998FB8B59598FD62A64 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = geoComApp;
+			productName = geoComApp;
+			productReference = 9553FFB11DE39BE700FF6C7F /* geoComApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9553FFA91DE39BE700FF6C7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Ranjit Marathay";
+				TargetAttributes = {
+					9553FFB01DE39BE700FF6C7F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JDS3U9EQU6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9553FFAC1DE39BE700FF6C7F /* Build configuration list for PBXProject "geoComApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9553FFA81DE39BE600FF6C7F;
+			productRefGroup = 9553FFB21DE39BE700FF6C7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9553FFB01DE39BE700FF6C7F /* geoComApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9553FFAF1DE39BE700FF6C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9553FFC91DE39D5F00FF6C7F /* Podfile in Resources */,
+				9553FFBF1DE39BE700FF6C7F /* LaunchScreen.storyboard in Resources */,
+				9553FFC71DE39C9D00FF6C7F /* GoogleService-Info.plist in Resources */,
+				9553FFBC1DE39BE700FF6C7F /* Assets.xcassets in Resources */,
+				9553FFBA1DE39BE700FF6C7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55BFBF779572C92C3A523F3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-geoComApp/Pods-geoComApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95400998FB8B59598FD62A64 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-geoComApp/Pods-geoComApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB9645EE08C8FD17A03F2BC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9553FFAD1DE39BE700FF6C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BFDB1C1DF65D4000D329DD /* MainData.swift in Sources */,
+				9587BC3E1DF7D32300DC172C /* AddCard.swift in Sources */,
+				95ECE4FD1DF8A79300D00241 /* Pay.swift in Sources */,
+				951512EA1DE8DFC500D29AD1 /* Map.swift in Sources */,
+				9553FFD31DE3ECF100FF6C7F /* Home.swift in Sources */,
+				9553FFB51DE39BE700FF6C7F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9553FFB81DE39BE700FF6C7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9553FFB91DE39BE700FF6C7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9553FFBD1DE39BE700FF6C7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9553FFBE1DE39BE700FF6C7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9553FFC11DE39BE700FF6C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9553FFC21DE39BE700FF6C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9553FFC41DE39BE700FF6C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7905CA1E43FC99B19AB0AE26 /* Pods-geoComApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JDS3U9EQU6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = geoComApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.ranjit.geoComApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "geoComApp/geoComApp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9553FFC51DE39BE700FF6C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47D54AADBDA05E5E8A90A5F5 /* Pods-geoComApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JDS3U9EQU6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = geoComApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.ranjit.geoComApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "geoComApp/geoComApp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9553FFAC1DE39BE700FF6C7F /* Build configuration list for PBXProject "geoComApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9553FFC11DE39BE700FF6C7F /* Debug */,
+				9553FFC21DE39BE700FF6C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9553FFC31DE39BE700FF6C7F /* Build configuration list for PBXNativeTarget "geoComApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9553FFC41DE39BE700FF6C7F /* Debug */,
+				9553FFC51DE39BE700FF6C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9553FFA91DE39BE700FF6C7F /* Project object */;
+}

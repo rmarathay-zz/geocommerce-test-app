@@ -1,0 +1,10 @@
+target 'geoComApp' do
+    
+    use_frameworks!
+    pod 'Firebase/Core'
+    pod 'Firebase/Database'
+    pod 'Firebase/Auth'
+    pod 'Stripe'
+    pod 'AFNetworking'
+    pod 'Alamofire'
+end
