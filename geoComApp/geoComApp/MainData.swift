@@ -26,4 +26,10 @@ class MainData: NSObject{
     static var cvcNumber = "";
     static var userEmail = "";
     
+    // Database structure
+    
+    static var data: [[String:String]] = [ ]
+    
+    static var keys: [String] = [ ]
+
 }

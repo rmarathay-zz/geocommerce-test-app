@@ -18,31 +18,32 @@ import AFNetworking
 class Map: UIViewController, CLLocationManagerDelegate{
     
     let ref = FIRDatabase.database().reference()
-    var count = 0
     var currentLocation = CLLocation()
     var locationManager = CLLocationManager()
     let regionRadius: CLLocationDistance = 1000
     @IBOutlet weak var map: MKMapView!
     
-    @IBAction func backButton(_ sender: Any) {
-        FBSDKLoginManager().logOut()
-        let MainStoryBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil);
-        let HomeViewController: UIViewController = MainStoryBoard.instantiateViewController(withIdentifier: "Home");
-        self.present(HomeViewController, animated: true, completion: nil);
+    @IBAction func purchaseButton(_ sender: Any) {
+        //let dataRef = self.ref.child("users").child(MainData.username);
+//        let key = self.ref.child("payments/\(MainData.username)/").childByAutoId().key
+//        print(key)
+        let loc:[String: String] = ["latitute" : String(currentLocation.coordinate.latitude), "longitude" : String(currentLocation.coordinate.longitude), "dollar" : "10", "time" : String(describing: NSDate())]
+        let updates = ["payments/\(MainData.username)" : loc];
+         
+        ref.updateChildValues(updates);
+        MainData.data.append(loc)
     }
     
-    @IBAction func purchaseButton(_ sender: Any) {
-        let loc:NSDictionary = ["latitute" : currentLocation.coordinate.latitude, "longitude" : currentLocation.coordinate.longitude, "dollar" : 10, "time" : String(describing: NSDate())]
-        count += 1
-        self.ref.child("locations").child(String(count)).setValue(loc)
+    @IBAction func addcardButton(_ sender: Any) {
+        // Just for a segue
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        //let initialLocation = CLLocation(latitude: 21.282778, longitude: -157.829444)
         locationManager.delegate = self;
         locationManager.requestAlwaysAuthorization();
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest;
         locationManager.startMonitoringSignificantLocationChanges();
-        //centerMapOnLocation(location: initialLocation)
     }
     
     func centerMapOnLocation(location: CLLocation) {
