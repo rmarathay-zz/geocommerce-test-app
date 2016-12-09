@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CCFDDF9DD36541DA39ECE54D50B017C2F8FE5F06",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CCFDDF9DD36541DA39ECE54D50B017C2F8FE5F06" : 9223372036854775807,
+    "99BDF9614264E0D3503D70964B3F0D473B32C129" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EF2EE2F5-ECAF-48C5-9E71-CE12128300BD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CCFDDF9DD36541DA39ECE54D50B017C2F8FE5F06" : "geocommerce-test-app\/",
+    "99BDF9614264E0D3503D70964B3F0D473B32C129" : "geocommerce\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "geoComApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "geoComApp\/geoComApp.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rmarathay\/geocommerce.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "99BDF9614264E0D3503D70964B3F0D473B32C129"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rmarathay\/geocommerce-test-app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CCFDDF9DD36541DA39ECE54D50B017C2F8FE5F06"
+    }
+  ]
+}
